@@ -36,18 +36,23 @@
 }
 
 .animate-slide-up-tallo {
-  animation: slideUpTallo 0.7s ease forwards;
+  animation: slideUpTallo 5.5s ease forwards;
 }
-
-
-
-
 
 .animate-slide-up-2-sec {
   animation: slideUp 2s ease forwards;
 }
 
 .animate-slide-up-hojas-flor {
-  animation: slideUpHojasYFlor 1.5s ease forwards;
+  animation: slideUpHojasYFlor 4s ease forwards;
+  text-align: center;
+
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  margin-top: 10%;       /* Centra verticalmente */
+  height: 100vh;           /* Asegura que ocupe toda la altura del viewport */
 }
 

@@ -18,6 +18,6 @@ export class FlowersComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.arbustos = new Array(10).fill(0);
+    this.arbustos = new Array(5).fill(0);
   }
 }
