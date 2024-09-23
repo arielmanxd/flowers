@@ -1,0 +1,76 @@
+
+<div class="relative h-screen bg-gradient-to-b from-blue-500 to-cyan-500">
+  <!-- Cesped -->
+  <div class="absolute bottom-0 w-full">
+    <div class="h-16 bg-gradient-to-b from-green-700 to-green-500 w-full">
+      <div class="relative flex justify-evenly w-full">
+        <div *ngFor="let item of arbustos" class="relative w-full">
+          <!-- Arbusto -->
+          <div class="absolute bottom-0 flex justify-evenly items-end">
+            <div class="bg-gradient-to-t from-green-500 to-green-400 w-16 h-4 absolute left-1/2 transform -translate-x-[0rem] rotate-[60deg] shadow-lg" style="border-radius: 50%;"></div>
+            <div class="bg-gradient-to-b from-green-500 to-green-400 w-16 h-4 absolute left-1/2 transform translate-x-[1.5rem] -rotate-[65deg] shadow-lg" style="border-radius: 50%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor de las flowersss :) -->
+  <div class="flex justify-center items-end h-full gap-px w-full">
+    <div class="relative bottom-10 z-0 animate-slide-up-2-sec"> 
+      <!-- Tallo -->
+      <div class="bg-gradient-to-l from-green-600 to-green-500 w-4 h-44 rounded-md absolute bottom-0 left-1/2 transform -translate-x-2 shadow-md animate-slide-up-tallo"></div>
+
+      <!-- Petalos-->
+       <div class="animate-slide-up-hojas-flor">
+         <div class="bg-gradient-to-b from-yellow-500 to-yellow-500 w-24 h-32 rounded-b-full transform -translate-y-36 shadow-lg"></div>
+         <div class="bg-gradient-to-b from-yellow-500 to-yellow-200 w-20 h-32 rounded-b-full transform -translate-y-36 rotate-12 absolute top-0 left-0 opacity-80 shadow-lg"></div>
+         <div class="bg-gradient-to-b from-yellow-500 to-yellow-200 w-20 h-32 rounded-b-full transform -translate-y-36 -rotate-12 absolute top-0 right-0 opacity-80 shadow-lg"></div>
+       </div>
+
+       <!-- Hojas -->
+       <div class="animate-slide-up-hojas-flor">
+         <div class="bg-gradient-to-t from-green-500 to-green-400 w-48 h-8 absolute left-1/2 transform -translate-y-[5.5rem] -translate-x-[9rem] rotate-[60deg] shadow-lg" style="border-radius: 50%;"></div>
+         <div class="bg-gradient-to-b from-green-500 to-green-400 w-40 h-8 absolute left-1/2 transform -translate-y-[4.5rem] -translate-x-[3rem] -rotate-[65deg] shadow-lg" style="border-radius: 50%;"></div>
+       </div>
+    </div>
+
+    <!-- flor del medio -->
+    <div class="relative bottom-8 z-10 animate-slide-up"> 
+      <!-- Tallo -->
+      <div class="bg-gradient-to-l from-green-600 to-green-500 w-4 h-44 rounded-md absolute bottom-0 left-1/2 transform translate-y-[1rem] -translate-x-2 shadow-md animate-slide-up-tallo"></div>
+
+      <!-- Pétalos -->
+      <div class="animate-slide-up-hojas-flor">
+        <div class="bg-gradient-to-b from-yellow-500 to-yellow-500 w-24 h-32 rounded-b-full transform -translate-y-36 shadow-lg"></div>
+        <div class="bg-gradient-to-b from-yellow-500 to-yellow-200 w-20 h-32 rounded-b-full transform -translate-y-36 rotate-12 absolute top-0 left-0 opacity-80 shadow-lg"></div>
+        <div class="bg-gradient-to-b from-yellow-500 to-yellow-200 w-20 h-32 rounded-b-full transform -translate-y-36 -rotate-12 absolute top-0 right-0 opacity-80 shadow-lg"></div>
+      </div>
+
+      <!-- Hojas -->
+      <div class="animate-slide-up-hojas-flor">
+        <div class="bg-gradient-to-b from-green-500 to-green-400 w-40 h-8 absolute left-1/2 transform -translate-y-[4.5rem] -translate-x-[7.5rem] rotate-[60deg] shadow-lg" style="border-radius: 50%;"></div>
+        <div class="bg-gradient-to-t from-green-500 to-green-400 w-48 h-8 absolute left-1/2 transform -translate-y-[5.5rem] -translate-x-[3.7rem] -rotate-[65deg] shadow-lg" style="border-radius: 50%;"></div>
+      </div>
+    </div>
+
+    <div class="relative bottom-10 z-0 animate-slide-up-2-sec"> 
+      <!-- Tallo -->
+      <div class="bg-gradient-to-l from-green-600 to-green-500 w-4 h-44 rounded-md absolute bottom-0 left-1/2 transform translate-y-[1rem] -translate-x-2 shadow-md animate-slide-up-tallo"></div>
+
+      <!-- Pétalos -->
+       <div class="animate-slide-up-hojas-flor">
+         <div class="bg-gradient-to-b from-yellow-500 to-yellow-500 w-24 h-32 rounded-b-full transform -translate-y-36 shadow-lg"></div>
+         <div class="bg-gradient-to-b from-yellow-500 to-yellow-200 w-20 h-32 rounded-b-full transform -translate-y-36 rotate-12 absolute top-0 left-0 opacity-80 shadow-lg"></div>
+         <div class="bg-gradient-to-b from-yellow-500 to-yellow-200 w-20 h-32 rounded-b-full transform -translate-y-36 -rotate-12 absolute top-0 right-0 opacity-80 shadow-lg"></div>
+       </div>
+
+      <!-- Hojas -->
+      <div class="animate-slide-up-hojas-flor">
+        <div class="bg-gradient-to-b from-green-500 to-green-400 w-40 h-8 absolute left-1/2 transform -translate-y-[4.5rem] -translate-x-[7.5rem] rotate-[60deg] shadow-lg" style="border-radius: 50%;"></div>
+        <div class="bg-gradient-to-t from-green-500 to-green-400 w-48 h-8 absolute left-1/2 transform -translate-y-[5.5rem] -translate-x-[3.7rem] -rotate-[65deg] shadow-lg" style="border-radius: 50%;"></div>
+      </div>
+    </div>
+  </div>
+  
+</div>

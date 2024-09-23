@@ -1,0 +1,53 @@
+@keyframes slideUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUpTallo {
+  0% {
+    transform: translateY(100px) translateX(-0.5rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) translateX(-0.5rem);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUpHojasYFlor {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 4s ease forwards;
+}
+
+.animate-slide-up-tallo {
+  animation: slideUpTallo 0.7s ease forwards;
+}
+
+
+
+
+
+.animate-slide-up-2-sec {
+  animation: slideUp 2s ease forwards;
+}
+
+.animate-slide-up-hojas-flor {
+  animation: slideUpHojasYFlor 1.5s ease forwards;
+}
+
